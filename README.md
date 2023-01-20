@@ -47,5 +47,11 @@ The script will check if there is docx file with the same name, the new output f
 - python-docx
 - tkinter
 
+## Build executable
+You can use pyinstaller to generate executable file for various operating system
+```bash
+pyinstaller --onefile pdf_generator.py
+```
+
 ## Author
 Darius Chandra
