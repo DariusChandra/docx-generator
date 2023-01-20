@@ -1,3 +1,6 @@
+# Overview
+This desktop application will generate several docx file based on template docx replaced with variables in xlsx file
+
 ## preparation for running the script
 ```bash
 brew install tcl-tk
