@@ -18,6 +18,10 @@ This is a simple GUI desktop application that allows you to generate multiple do
 3. Run the script by running `python docx_generator.py`
 4. Select the excel file and the template docx file using the GUI, then press the "Generate DOCXs" button.
 
+### Executable
+
+If you don't want to install python or the required libraries, you can download the executable file from [Releases](https://github.com/DariusChandra/docx-generator/releases) section of this repository.
+
 ### Using the app
 
 1. Select the excel file that contains the data that you want to use to generate the docx files. The excel file should have a column named 'doc_name', and other columns with the variables that will be replaced in the template docx file.
