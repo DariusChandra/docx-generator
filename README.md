@@ -2,6 +2,16 @@
 
 This is a simple GUI desktop application that allows you to generate multiple docx files from an excel file and a docx template file. 
 
+### How it works
+
+The application takes 2 inputs, an excel file and a template docx file. The excel file contains the data that will be used to generate the new docx files and should have a column named 'doc_name' and other columns with the variables that will be replaced in the template docx file.
+
+![Illustration](exceltable.png)
+
+The template docx file is used as a base for the generated docx files and should contain placeholders in the format of $(variable_name) that will be replaced by the values from the excel file.
+
+For each row in the excel file, the application generates a new docx file by replacing the placeholders in the template docx file with the values from the excel file and save the file with the name specified in the 'doc_name' column of the excel file.
+
 ## Getting Started
 
 ### Prerequisites
